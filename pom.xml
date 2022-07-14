@@ -32,6 +32,19 @@
 		</dependency>
 	</dependencies>
 
+		  <distributionManagement>
+	  	<repository>
+		    <id>nexus</id>
+		    <name>Demo Nexus Repository</name>
+		    <url>http://54.144.69.38:8081/repository/niraali-release/</url>
+	    </repository>
+	    <snapshotRepository>
+		    <id>nexus</id>
+		    <name>Demo Nexus snapshot Repository</name>
+		    <url>http://54.144.69.38:8081/repository/niraali-snapshot/</url> 
+	    </snapshotRepository>
+	  </distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
