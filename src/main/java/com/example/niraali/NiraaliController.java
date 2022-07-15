@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping
 public class NiraaliController {
 
-	@GetMapping("/checkme")
+	@GetMapping("/getm")
 	public String checkMe() {
 		return "welcome to rest services";
 	}
